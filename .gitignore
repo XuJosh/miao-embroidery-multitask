@@ -72,3 +72,5 @@ Thumbs.db
 *.txt
 *.png
 *.html
+draw_*
+*.svg

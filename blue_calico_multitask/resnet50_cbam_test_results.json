@@ -1,0 +1,74 @@
+[
+  {
+    "auth_acc": 0.9524456521739131,
+    "auth_auc": 0.9886287777642917,
+    "pat_acc": 0.9646739130434783,
+    "def_acc": 0.9225543478260869,
+    "def_auc": 0.9619913754975674,
+    "path": "checkpoints_external_resnet50_cbam_correct\\checkpoint_best.pt",
+    "epoch": 9
+  },
+  {
+    "auth_acc": 0.9578804347826086,
+    "auth_auc": 0.9923003398470689,
+    "pat_acc": 0.9836956521739131,
+    "def_acc": 0.9225543478260869,
+    "def_auc": 0.9596555727554179,
+    "path": "checkpoints_external_resnet50_cbam_correct\\checkpoint_last.pt",
+    "epoch": 30
+  },
+  {
+    "auth_acc": 0.9157608695652174,
+    "auth_auc": 0.9732939373710402,
+    "pat_acc": 0.9592391304347826,
+    "def_acc": 0.9266304347826086,
+    "def_auc": 0.9626870485036119,
+    "path": "checkpoints_external_resnet50_cbam_correct\\embroidery_cls_epoch10.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9470108695652174,
+    "auth_auc": 0.9853365092851074,
+    "pat_acc": 0.9538043478260869,
+    "def_acc": 0.9171195652173914,
+    "def_auc": 0.9666675880878667,
+    "path": "checkpoints_external_resnet50_cbam_correct\\embroidery_cls_epoch15.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9429347826086957,
+    "auth_auc": 0.9859547578589635,
+    "pat_acc": 0.9836956521739131,
+    "def_acc": 0.938858695652174,
+    "def_auc": 0.9621157673595755,
+    "path": "checkpoints_external_resnet50_cbam_correct\\embroidery_cls_epoch20.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9307065217391305,
+    "auth_auc": 0.9793322915402355,
+    "pat_acc": 0.9864130434782609,
+    "def_acc": 0.9293478260869565,
+    "def_auc": 0.961217381689518,
+    "path": "checkpoints_external_resnet50_cbam_correct\\embroidery_cls_epoch25.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9578804347826086,
+    "auth_auc": 0.9923003398470689,
+    "pat_acc": 0.9836956521739131,
+    "def_acc": 0.9225543478260869,
+    "def_auc": 0.9596555727554179,
+    "path": "checkpoints_external_resnet50_cbam_correct\\embroidery_cls_epoch30.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.8627717391304348,
+    "auth_auc": 0.9368817514261439,
+    "pat_acc": 0.9483695652173914,
+    "def_acc": 0.9456521739130435,
+    "def_auc": 0.9540118679050568,
+    "path": "checkpoints_external_resnet50_cbam_correct\\embroidery_cls_epoch5.pth",
+    "epoch": null
+  }
+]

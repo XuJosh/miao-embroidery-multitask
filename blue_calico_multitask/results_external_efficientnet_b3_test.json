@@ -1,0 +1,110 @@
+[
+  {
+    "auth_acc": 0.9442934782608695,
+    "auth_auc": 0.9793550491564511,
+    "pat_acc": 0.9877717391304348,
+    "def_acc": 0.9225543478260869,
+    "def_auc": 0.943171347486363,
+    "path": "checkpoints_external_efficientnet_b3_correct\\checkpoint_best.pt",
+    "epoch": 2
+  },
+  {
+    "auth_acc": 0.9456521739130435,
+    "auth_auc": 0.9737377108872436,
+    "pat_acc": 0.9959239130434783,
+    "def_acc": 0.9266304347826086,
+    "def_auc": 0.9502110054548135,
+    "path": "checkpoints_external_efficientnet_b3_correct\\checkpoint_last.pt",
+    "epoch": 50
+  },
+  {
+    "auth_acc": 0.9225543478260869,
+    "auth_auc": 0.9709992110693045,
+    "pat_acc": 0.9864130434782609,
+    "def_acc": 0.90625,
+    "def_auc": 0.9505012531328321,
+    "path": "checkpoints_external_efficientnet_b3_correct\\embroidery_cls_epoch10.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.936141304347826,
+    "auth_auc": 0.9853478880932153,
+    "pat_acc": 0.9918478260869565,
+    "def_acc": 0.9157608695652174,
+    "def_auc": 0.9479765590446705,
+    "path": "checkpoints_external_efficientnet_b3_correct\\embroidery_cls_epoch15.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9510869565217391,
+    "auth_auc": 0.9869371282922685,
+    "pat_acc": 0.9959239130434783,
+    "def_acc": 0.9157608695652174,
+    "def_auc": 0.9520077767949285,
+    "path": "checkpoints_external_efficientnet_b3_correct\\embroidery_cls_epoch20.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9442934782608695,
+    "auth_auc": 0.9835310717320063,
+    "pat_acc": 0.9877717391304348,
+    "def_acc": 0.9184782608695652,
+    "def_auc": 0.9400016585581601,
+    "path": "checkpoints_external_efficientnet_b3_correct\\embroidery_cls_epoch25.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9497282608695652,
+    "auth_auc": 0.9851013472508798,
+    "pat_acc": 0.9877717391304348,
+    "def_acc": 0.9130434782608695,
+    "def_auc": 0.9510587129588677,
+    "path": "checkpoints_external_efficientnet_b3_correct\\embroidery_cls_epoch30.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9524456521739131,
+    "auth_auc": 0.9876653720111664,
+    "pat_acc": 0.9891304347826086,
+    "def_acc": 0.9252717391304348,
+    "def_auc": 0.9563568848592068,
+    "path": "checkpoints_external_efficientnet_b3_correct\\embroidery_cls_epoch35.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9375,
+    "auth_auc": 0.9788657604078165,
+    "pat_acc": 0.9959239130434783,
+    "def_acc": 0.9279891304347826,
+    "def_auc": 0.9600471767654432,
+    "path": "checkpoints_external_efficientnet_b3_correct\\embroidery_cls_epoch40.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9470108695652174,
+    "auth_auc": 0.9798253732249059,
+    "pat_acc": 0.9945652173913043,
+    "def_acc": 0.9211956521739131,
+    "def_auc": 0.9534359796550199,
+    "path": "checkpoints_external_efficientnet_b3_correct\\embroidery_cls_epoch45.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9402173913043478,
+    "auth_auc": 0.9799846765384148,
+    "pat_acc": 0.9891304347826086,
+    "def_acc": 0.9157608695652174,
+    "def_auc": 0.9478844169246645,
+    "path": "checkpoints_external_efficientnet_b3_correct\\embroidery_cls_epoch5.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9456521739130435,
+    "auth_auc": 0.9737377108872436,
+    "pat_acc": 0.9959239130434783,
+    "def_acc": 0.9266304347826086,
+    "def_auc": 0.9502110054548135,
+    "path": "checkpoints_external_efficientnet_b3_correct\\embroidery_cls_epoch50.pth",
+    "epoch": null
+  }
+]

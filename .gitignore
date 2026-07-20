@@ -1,0 +1,68 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model checkpoints and weights
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.tflite
+checkpoints*/
+checkpoint*/
+
+# Datasets and data
+data/
+datasets/
+aitex_data/
+*.7z
+*.zip
+*.rar
+
+# Large binary files
+wheelhouse/
+*.whl
+
+# Word experiment reports (excluded per user request)
+*.docx
+*.doc
+
+# PDFs (downloaded references)
+*.pdf
+
+# Logs
+logs/
+*.log
+
+# Training outputs and visualizations
+cam_outputs_*/
+localization_outputs_*/
+selected_defect_images*/
+selected_defect_images_600x600/
+ablation_confusion_matrices/
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+~$*

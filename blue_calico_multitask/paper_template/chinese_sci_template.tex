@@ -1,0 +1,167 @@
+% 中文 SCI 论文 LaTeX 模板（通用学术格式）
+% 适用：多数 SCI 期刊投稿前的预印本 / 内部版本
+% 编译方式：xelatex -> bibtex -> xelatex*2
+\documentclass[12pt,a4paper]{article}
+
+% ========== 基础宏包 ==========
+\usepackage{ctex}                       % 中文支持
+\usepackage[margin=2.5cm]{geometry}     % 页面边距
+\usepackage{graphicx}                   % 插图
+\usepackage{booktabs}                   % 三线表
+\usepackage{multirow}                   % 表格合并
+\usepackage{amsmath,amssymb,amsfonts}   % 数学公式
+\usepackage{algorithm}                  % 算法环境
+\usepackage{algpseudocode}              % 算法伪代码
+\usepackage{subcaption}                 % 子图
+\usepackage{xcolor}                     % 颜色
+\usepackage{hyperref}                   % 超链接
+\usepackage{lineno}                     % 行号（审稿时常用）
+\linenumbers
+
+% ========== 参考文献设置 ==========
+\usepackage[numbers,sort&compress]{natbib}
+\bibliographystyle{unsrtnat}  % 可替换为期刊提供的 bst 文件
+
+% ========== 标题与作者信息 ==========
+\title{\textbf{论文标题：请在此处填写你的论文标题}}
+\author{
+    作者一$^{1,*}$, \quad
+    作者二$^{2}$, \quad
+    通讯作者$^{1,\dagger}$ \\[0.5em]
+    \small $^{1}$ 单位一名称，城市，邮编，国家 \\
+    \small $^{2}$ 单位二名称，城市，邮编，国家 \\
+    \small $^{*}$ 第一作者邮箱；$^{\dagger}$ 通讯作者邮箱
+}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+% ========== 摘要 ==========
+\begin{abstract}
+请在此处撰写中文摘要（通常 200--300 字）。摘要应包含研究背景、目的、方法、主要结果和结论。避免使用公式、图表和参考文献编号。
+\end{abstract}
+
+\noindent\textbf{关键词：} 关键词1；关键词2；关键词3；关键词4
+
+\vspace{1em}
+\noindent\rule{\textwidth}{0.4pt}
+
+% ========== 1. 引言 ==========
+\section{引言（Introduction）}
+引言部分应回答以下问题：研究背景是什么？现有工作存在哪些不足？本文的研究动机和主要贡献是什么？
+
+例如：近年来，深度学习在计算机视觉领域取得了显著进展\cite{he2016deep}。然而，在 xxx 任务中，现有方法仍面临 xxx 问题\cite{vaswani2017attention}。针对上述问题，本文提出了一种 xxx 方法，主要贡献如下：
+\begin{itemize}
+    \item 贡献一：请简要描述。
+    \item 贡献二：请简要描述。
+    \item 贡献三：请简要描述。
+\end{itemize}
+
+% ========== 2. 相关工作 ==========
+\section{相关工作（Related Work）}
+按主题分类综述相关研究，突出与本工作的区别。
+
+\subsection{子领域一}
+[请填写相关研究综述。]
+
+\subsection{子领域二}
+[请填写相关研究综述。]
+
+% ========== 3. 方法 ==========
+\section{方法（Methodology）}
+详细描述所提出的方法。建议包含：总体框架图、符号定义、模型结构、损失函数、训练策略等。
+
+\subsection{问题定义}
+给出任务的数学定义。例如，给定训练数据集 $\mathcal{D}=\{(x_i, y_i)\}_{i=1}^{N}$，其中 $x_i \in \mathbb{R}^{H \times W \times 3}$ 为输入图像，$y_i \in \{0, 1\}$ 为标签，目标是学习一个映射函数 $f: x \mapsto y$。
+
+\subsection{网络结构}
+请在此处插入网络结构图，并描述各模块功能：
+\begin{equation}
+    \mathcal{L}_{\text{total}} = \mathcal{L}_{\text{cls}} + \lambda \mathcal{L}_{\text{aux}}.
+\end{equation}
+
+\subsection{损失函数}
+详细说明各项损失函数的设计动机与公式。
+
+\subsection{训练细节}
+包括优化器、学习率、批量大小、数据增强、硬件环境等。
+
+% ========== 4. 实验 ==========
+\section{实验（Experiments）}
+\subsection{数据集与评价指标}
+描述数据集划分、数据预处理方式和评价指标。例如：
+\begin{itemize}
+    \item 数据集：训练集 / 验证集 / 测试集数量。
+    \item 评价指标：准确率（Accuracy）、AUC、F1-score 等。
+\end{itemize}
+
+\subsection{实现细节}
+实验环境、超参数设置、复现性说明。
+
+\subsection{与先进方法的对比}
+将实验结果整理成表格。示例如表~\ref{tab:comparison}。
+
+\begin{table}[htbp]
+\centering
+\caption{与现有方法的对比结果}
+\label{tab:comparison}
+\begin{tabular}{lcccc}
+\toprule
+方法 & 年份 & Acc & AUC & F1 \\
+\midrule
+方法A & 2023 & 0.85 & 0.88 & 0.83 \\
+方法B & 2024 & 0.89 & 0.91 & 0.87 \\
+\textbf{本文方法} & 2025 & \textbf{0.92} & \textbf{0.94} & \textbf{0.90} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{消融实验}
+分析各模块/超参数对性能的影响，如表~\ref{tab:ablation}。
+
+\begin{table}[htbp]
+\centering
+\caption{消融实验结果}
+\label{tab:ablation}
+\begin{tabular}{lccc}
+\toprule
+配置 & Acc & AUC & F1 \\
+\midrule
+基线 & 0.85 & 0.88 & 0.83 \\
++ 模块A & 0.88 & 0.90 & 0.86 \\
++ 模块B & 0.90 & 0.92 & 0.88 \\
+完整方法 & 0.92 & 0.94 & 0.90 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ========== 5. 结果与讨论 ==========
+\section{结果与讨论（Results and Discussion）}
+对实验结果进行深入分析，可包含：可视化结果、失败案例分析、方法优势与局限性讨论。
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.8\textwidth]{example-image-a}
+\caption{实验结果可视化示例。请替换为实际图片。}
+\label{fig:result}
+\end{figure}
+
+% ========== 6. 结论 ==========
+\section{结论（Conclusion）}
+总结本文的主要工作，强调创新点和实验结论。可简要提及未来研究方向。
+
+% ========== 致谢（可选） ==========
+\section*{致谢（Acknowledgments）}
+感谢资助项目、设备支持、同行讨论等。
+
+% ========== 参考文献 ==========
+\bibliography{references}
+
+% ========== 附录（可选） ==========
+\appendix
+\section{补充材料}
+[请将补充实验、推导、伪代码等放在附录中。]
+
+\end{document}

@@ -1,0 +1,65 @@
+{
+  "notes": [
+    "All supervised baselines are trained on the corrected Guizhou embroidery multi-task split (train 34330 / val 736 / test 736).",
+    "UniNet is evaluated only on the defect (anomaly detection) task because it is a one-class anomaly detector; auth/pattern heads are not applicable.",
+    "UniNet used wide_resnet50_2 for both teacher and student, 224x224 input, batch size 8, 5 epochs, and a 2000-image normal-only training subset due to GPU memory/training-time constraints.",
+    "Best defect accuracy for each supervised method is reported from the per-epoch checkpoints; the main row reports the last-epoch test metrics."
+  ],
+  "methods": [
+    {
+      "name": "ResNet50-CBAM",
+      "reference": "Wang et al., npj Heritage Science, 2026",
+      "config": "30 epochs, 224px, batch 32",
+      "auth_acc": 0.9579,
+      "pat_acc": 0.9837,
+      "def_acc": 0.9226,
+      "def_auc": 0.9597,
+      "best_def_acc": 0.9389,
+      "best_def_acc_epoch": 20
+    },
+    {
+      "name": "MobileNetV4-Conv-Small",
+      "reference": "Ma et al., Mathematics, 2026",
+      "config": "60 epochs, 224px, batch 32",
+      "auth_acc": 0.8342,
+      "pat_acc": 0.9701,
+      "def_acc": 0.8655,
+      "def_auc": 0.8861,
+      "best_def_acc": 0.8750,
+      "best_def_acc_epoch": 45
+    },
+    {
+      "name": "MambaOut-Small",
+      "reference": "Yu & Wang, CVPR 2025, pp. 4484-4496",
+      "config": "50 epochs, 224px, batch 32, no AMP, grad clip 1.0",
+      "auth_acc": 0.9511,
+      "pat_acc": 0.9932,
+      "def_acc": 0.9198,
+      "def_auc": 0.9595,
+      "best_def_acc": 0.9348,
+      "best_def_acc_epoch": 35
+    },
+    {
+      "name": "MambaOut-Tiny",
+      "reference": "Yu & Wang, CVPR 2025, pp. 4484-4496",
+      "config": "50 epochs, 224px, batch 32, no AMP, grad clip 1.0",
+      "auth_acc": 0.9280,
+      "pat_acc": 0.9810,
+      "def_acc": 0.9361,
+      "def_auc": 0.9709,
+      "best_def_acc": 0.9361,
+      "best_def_acc_epoch": 50
+    },
+    {
+      "name": "UniNet",
+      "reference": "Wei et al., CVPR 2025",
+      "config": "5 epochs, 224px, batch 8, normal-only subset 2000, wide_resnet50_2 teacher/student",
+      "auth_acc": null,
+      "pat_acc": null,
+      "def_acc": 0.7228,
+      "def_auc": 0.5872,
+      "best_def_acc": 0.7228,
+      "best_def_acc_epoch": 5
+    }
+  ]
+}

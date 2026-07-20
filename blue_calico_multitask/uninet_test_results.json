@@ -1,0 +1,10 @@
+{
+  "defect_auc": 0.5871986952675807,
+  "defect_acc": 0.7228260869565217,
+  "threshold": 4.137749195098877,
+  "image_size": 224,
+  "batch_size": 8,
+  "epochs": 5,
+  "train_subset": 2000,
+  "lr": 0.005
+}

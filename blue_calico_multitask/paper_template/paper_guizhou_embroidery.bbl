@@ -1,0 +1,45 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Caruana(1997)]{caruana1997multitask}
+Rich Caruana.
+\newblock Multitask learning.
+\newblock \emph{Machine Learning}, 28\penalty0 (1):\penalty0 41--75, 1997.
+
+\bibitem[He et~al.(2016)He, Zhang, Ren, and Sun]{he2016deep}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock In \emph{Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 770--778, 2016.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  30:\penalty0 5998--6008, 2017.
+
+\bibitem[Woo et~al.(2018)Woo, Park, Lee, and So~Kweon]{wang2018cbam}
+Sanghyun Woo, Jongchan Park, Joon-Young Lee, and In~So~Kweon.
+\newblock Cbam: Convolutional block attention module.
+\newblock In \emph{Proceedings of the European Conference on Computer Vision},
+  pages 3--19, 2018.
+
+\bibitem[Yu and Wang(2025)]{yu2025mambaout}
+Weihao Yu and Xinchao Wang.
+\newblock Mambaout: Do we really need mamba for vision?
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 4484--4496, 2025.
+
+\bibitem[Wei et~al.(2025)]{wei2025uninet}
+Shun Wei et~al.
+\newblock Uninet: A unified network for anomaly detection.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, 2025.
+
+\end{thebibliography}

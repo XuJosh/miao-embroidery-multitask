@@ -1,0 +1,75 @@
+[
+  {
+    "name": "baseline_augfirst",
+    "model_type": "base",
+    "data_dir": "data/guizhou_embroidery",
+    "checkpoint": "checkpoints_guizhou_emb_dinov2_lora_seq/embroidery_cls_best.pth"
+  },
+  {
+    "name": "enhanced_augfirst",
+    "model_type": "enhanced",
+    "data_dir": "data/guizhou_embroidery",
+    "checkpoint": "checkpoints_guizhou_emb_dinov2_lora_enhanced_augfirst/embroidery_cls_best.pth"
+  },
+  {
+    "name": "baseline_correct",
+    "model_type": "base",
+    "data_dir": "data/guizhou_embroidery_correct",
+    "checkpoint": "checkpoints_guizhou_emb_dinov2_lora_seq_correct/embroidery_cls_best.pth"
+  },
+  {
+    "name": "enhanced_correct",
+    "model_type": "enhanced",
+    "data_dir": "data/guizhou_embroidery_correct",
+    "checkpoint": "checkpoints_guizhou_emb_dinov2_lora_enhanced_correct/embroidery_cls_best.pth"
+  },
+  {
+    "name": "enhanced_correct_no_freq",
+    "model_type": "enhanced",
+    "data_dir": "data/guizhou_embroidery_correct",
+    "checkpoint": "checkpoints_enhanced_correct_no_freq/embroidery_cls_best.pth",
+    "use_frequency": false
+  },
+  {
+    "name": "enhanced_correct_no_arcface",
+    "model_type": "enhanced",
+    "data_dir": "data/guizhou_embroidery_correct",
+    "checkpoint": "checkpoints_enhanced_correct_no_arcface/embroidery_cls_best.pth",
+    "use_arcface": false
+  },
+  {
+    "name": "enhanced_correct_no_dynamic",
+    "model_type": "enhanced",
+    "data_dir": "data/guizhou_embroidery_correct",
+    "checkpoint": "checkpoints_enhanced_correct_no_dynamic/embroidery_cls_best.pth",
+    "use_dynamic_loss": false
+  },
+  {
+    "name": "resnet50_correct",
+    "model_type": "external",
+    "backbone": "resnet50",
+    "data_dir": "data/guizhou_embroidery_correct",
+    "checkpoint": "checkpoints_external_resnet50_correct/embroidery_cls_best.pth"
+  },
+  {
+    "name": "efficientnet_b0_correct",
+    "model_type": "external",
+    "backbone": "efficientnet_b0",
+    "data_dir": "data/guizhou_embroidery_correct",
+    "checkpoint": "checkpoints_external_efficientnet_b0_correct/embroidery_cls_best.pth"
+  },
+  {
+    "name": "vit_b_16_correct",
+    "model_type": "external",
+    "backbone": "vit_b_16",
+    "data_dir": "data/guizhou_embroidery_correct",
+    "checkpoint": "checkpoints_external_vit_b_16_correct/embroidery_cls_best.pth"
+  },
+  {
+    "name": "dinov2_vits14_frozen_correct",
+    "model_type": "external",
+    "backbone": "dinov2_vits14_frozen",
+    "data_dir": "data/guizhou_embroidery_correct",
+    "checkpoint": "checkpoints_external_dinov2_vits14_frozen_correct/embroidery_cls_best.pth"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "auth_acc": 0.7948369565217391,
+    "auth_auc": 0.875883754096371,
+    "pat_acc": 0.9375,
+    "def_acc": 0.8695652173913043,
+    "def_auc": 0.8597136222910217,
+    "path": "checkpoints_external_mobilenetv4_conv_small.e1200_r224_in1k_correct\\checkpoint_best.pt",
+    "epoch": 4
+  },
+  {
+    "auth_acc": 0.8342391304347826,
+    "auth_auc": 0.900928510741595,
+    "pat_acc": 0.970108695652174,
+    "def_acc": 0.8654891304347826,
+    "def_auc": 0.8860893041427098,
+    "path": "checkpoints_external_mobilenetv4_conv_small.e1200_r224_in1k_correct\\checkpoint_last.pt",
+    "epoch": 60
+  },
+  {
+    "auth_acc": 0.8220108695652174,
+    "auth_auc": 0.899680634785775,
+    "pat_acc": 0.9605978260869565,
+    "def_acc": 0.8722826086956522,
+    "def_auc": 0.8918205440070766,
+    "path": "checkpoints_external_mobilenetv4_conv_small.e1200_r224_in1k_correct\\embroidery_cls_epoch10.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.8125,
+    "auth_auc": 0.8903879414977546,
+    "pat_acc": 0.9565217391304348,
+    "def_acc": 0.8627717391304348,
+    "def_auc": 0.9000396211116026,
+    "path": "checkpoints_external_mobilenetv4_conv_small.e1200_r224_in1k_correct\\embroidery_cls_epoch15.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.8152173913043478,
+    "auth_auc": 0.8870880871464983,
+    "pat_acc": 0.970108695652174,
+    "def_acc": 0.8709239130434783,
+    "def_auc": 0.8996388028895769,
+    "path": "checkpoints_external_mobilenetv4_conv_small.e1200_r224_in1k_correct\\embroidery_cls_epoch20.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.8301630434782609,
+    "auth_auc": 0.893941922563418,
+    "pat_acc": 0.967391304347826,
+    "def_acc": 0.8573369565217391,
+    "def_auc": 0.8862459457467199,
+    "path": "checkpoints_external_mobilenetv4_conv_small.e1200_r224_in1k_correct\\embroidery_cls_epoch25.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.8288043478260869,
+    "auth_auc": 0.8950532528219444,
+    "pat_acc": 0.970108695652174,
+    "def_acc": 0.8627717391304348,
+    "def_auc": 0.8752165339820138,
+    "path": "checkpoints_external_mobilenetv4_conv_small.e1200_r224_in1k_correct\\embroidery_cls_epoch30.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.8328804347826086,
+    "auth_auc": 0.8950532528219445,
+    "pat_acc": 0.9755434782608695,
+    "def_acc": 0.8627717391304348,
+    "def_auc": 0.882716902550494,
+    "path": "checkpoints_external_mobilenetv4_conv_small.e1200_r224_in1k_correct\\embroidery_cls_epoch35.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.8396739130434783,
+    "auth_auc": 0.8899176174292996,
+    "pat_acc": 0.9755434782608695,
+    "def_acc": 0.8641304347826086,
+    "def_auc": 0.8725904835618458,
+    "path": "checkpoints_external_mobilenetv4_conv_small.e1200_r224_in1k_correct\\embroidery_cls_epoch40.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.8328804347826086,
+    "auth_auc": 0.8940253671562083,
+    "pat_acc": 0.9823369565217391,
+    "def_acc": 0.875,
+    "def_auc": 0.8901481645289695,
+    "path": "checkpoints_external_mobilenetv4_conv_small.e1200_r224_in1k_correct\\embroidery_cls_epoch45.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.8165760869565217,
+    "auth_auc": 0.8804276914674112,
+    "pat_acc": 0.9456521739130435,
+    "def_acc": 0.8627717391304348,
+    "def_auc": 0.8677622364735367,
+    "path": "checkpoints_external_mobilenetv4_conv_small.e1200_r224_in1k_correct\\embroidery_cls_epoch5.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.8288043478260869,
+    "auth_auc": 0.8947991261075372,
+    "pat_acc": 0.9809782608695652,
+    "def_acc": 0.8654891304347826,
+    "def_auc": 0.8832006486805248,
+    "path": "checkpoints_external_mobilenetv4_conv_small.e1200_r224_in1k_correct\\embroidery_cls_epoch50.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.8328804347826086,
+    "auth_auc": 0.8921554496904964,
+    "pat_acc": 0.9755434782608695,
+    "def_acc": 0.8627717391304348,
+    "def_auc": 0.8791648238242666,
+    "path": "checkpoints_external_mobilenetv4_conv_small.e1200_r224_in1k_correct\\embroidery_cls_epoch55.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.8342391304347826,
+    "auth_auc": 0.900928510741595,
+    "pat_acc": 0.970108695652174,
+    "def_acc": 0.8654891304347826,
+    "def_auc": 0.8860893041427098,
+    "path": "checkpoints_external_mobilenetv4_conv_small.e1200_r224_in1k_correct\\embroidery_cls_epoch60.pth",
+    "epoch": null
+  }
+]

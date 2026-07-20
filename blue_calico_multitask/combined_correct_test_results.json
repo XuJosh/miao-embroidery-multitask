@@ -1,0 +1,191 @@
+[
+  {
+    "auth_acc": 0.9741847826086957,
+    "auth_auc": 0.9941664643767447,
+    "pat_acc": 0.9809782608695652,
+    "def_acc": 0.9089673913043478,
+    "def_auc": 0.9508145363408521,
+    "path": "checkpoints_combined_correct/checkpoint_best.pt",
+    "epoch": 3
+  },
+  {
+    "auth_acc": 0.9646739130434783,
+    "auth_auc": 0.9886211918922199,
+    "pat_acc": 0.9972826086956522,
+    "def_acc": 0.9144021739130435,
+    "def_auc": 0.9515977443609022,
+    "path": "checkpoints_combined_correct/checkpoint_last.pt",
+    "epoch": 150
+  },
+  {
+    "auth_acc": 0.9660326086956522,
+    "auth_auc": 0.9935330440587451,
+    "pat_acc": 0.9877717391304348,
+    "def_acc": 0.9103260869565217,
+    "def_auc": 0.9626594058676102,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch5.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9592391304347826,
+    "auth_auc": 0.9911359084840393,
+    "pat_acc": 0.9904891304347826,
+    "def_acc": 0.9184782608695652,
+    "def_auc": 0.9561633864071946,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch10.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9782608695652174,
+    "auth_auc": 0.9937454484767569,
+    "pat_acc": 0.9972826086956522,
+    "def_acc": 0.9157608695652174,
+    "def_auc": 0.964985994397759,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch15.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.970108695652174,
+    "auth_auc": 0.9919969049641947,
+    "pat_acc": 0.9932065217391305,
+    "def_acc": 0.9144021739130435,
+    "def_auc": 0.958374797287336,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch20.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.96875,
+    "auth_auc": 0.9916479548488895,
+    "pat_acc": 0.9932065217391305,
+    "def_acc": 0.9171195652173914,
+    "def_auc": 0.9659903435058235,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch25.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9633152173913043,
+    "auth_auc": 0.9908362665372011,
+    "pat_acc": 0.9959239130434783,
+    "def_acc": 0.9198369565217391,
+    "def_auc": 0.9644607843137254,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch30.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9619565217391305,
+    "auth_auc": 0.9883291358174536,
+    "pat_acc": 0.9959239130434783,
+    "def_acc": 0.9225543478260869,
+    "def_auc": 0.9605124944714728,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch35.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9646739130434783,
+    "auth_auc": 0.988568090787717,
+    "pat_acc": 0.9918478260869565,
+    "def_acc": 0.9279891304347826,
+    "def_auc": 0.961890019165561,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch40.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9633152173913043,
+    "auth_auc": 0.9873353865760409,
+    "pat_acc": 0.9918478260869565,
+    "def_acc": 0.8967391304347826,
+    "def_auc": 0.9525237726669615,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch45.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9619565217391305,
+    "auth_auc": 0.9889056620949145,
+    "pat_acc": 0.998641304347826,
+    "def_acc": 0.904891304347826,
+    "def_auc": 0.9480134158926729,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch50.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.970108695652174,
+    "auth_auc": 0.9916517477849254,
+    "pat_acc": 0.998641304347826,
+    "def_acc": 0.9130434782608695,
+    "def_auc": 0.9556013194751586,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch55.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9741847826086957,
+    "auth_auc": 0.9904076647651414,
+    "pat_acc": 0.9972826086956522,
+    "def_acc": 0.9144021739130435,
+    "def_auc": 0.9571170573492555,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch60.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9633152173913043,
+    "auth_auc": 0.9847751547517903,
+    "pat_acc": 0.9972826086956522,
+    "def_acc": 0.9089673913043478,
+    "def_auc": 0.9566793822792274,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch65.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.970108695652174,
+    "auth_auc": 0.9895808047093094,
+    "pat_acc": 0.9972826086956522,
+    "def_acc": 0.9144021739130435,
+    "def_auc": 0.9585222246793453,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch70.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9741847826086957,
+    "auth_auc": 0.9886894647408666,
+    "pat_acc": 0.9959239130434783,
+    "def_acc": 0.9089673913043478,
+    "def_auc": 0.9506578947368421,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch75.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9714673913043478,
+    "auth_auc": 0.9874377958490108,
+    "pat_acc": 0.9959239130434783,
+    "def_acc": 0.9103260869565217,
+    "def_auc": 0.9536663349550346,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch80.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9728260869565217,
+    "auth_auc": 0.989140824129142,
+    "pat_acc": 0.9972826086956522,
+    "def_acc": 0.9103260869565217,
+    "def_auc": 0.9517267433289106,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch85.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9660326086956522,
+    "auth_auc": 0.9851999635878139,
+    "pat_acc": 0.9959239130434783,
+    "def_acc": 0.907608695652174,
+    "def_auc": 0.9505242886628336,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch90.pth",
+    "epoch": null
+  },
+  {
+    "auth_acc": 0.9660326086956522,
+    "auth_auc": 0.9852909940526763,
+    "pat_acc": 0.9959239130434783,
+    "def_acc": 0.90625,
+    "def_auc": 0.9508790358248562,
+    "path": "checkpoints_combined_correct/embroidery_cls_epoch95.pth",
+    "epoch": null
+  }
+]
